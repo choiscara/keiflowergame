@@ -16,6 +16,9 @@ keiflower
 
 
 :: click to start your journey [keikei] {"position":"675,275","size":"100,100"}
+{(track:'menu', 'fadein', 1)
+(track:'menu', 'loop', true)}
+
 
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
 i'll be your guide! i am the little voice in nova's head >:)
@@ -35,13 +38,8 @@ to start, here is some info about your journey ➪
 [[start your journey!]]]]]
 
 
-:: hal.config {"position":"450,125","size":"100,100"}
-volumeDisplay: false
-debug: true
-
-
 :: hal.tracks {"position":"325,125","size":"100,100"}
-keikei: ./music/menu.mp3
+menu: ./music/menu.mp3
 musicshop: ./music/musicshop.mp3
 flower: ./music/flowershop.mp3
 museum: ./music/museum.mp3
@@ -52,9 +50,10 @@ museum: ./music/museum.mp3
 
 
 :: menu {"position":"675,150","size":"100,100"}
-{(track: "menu.mp3", 'fadein', 1)
-(track: "menu.mp3", 'loop', true)}
-
+{(track:'menu', 'fadeout', 2)
+(track:'musicshop', 'fadeout', 2)
+(track:'flower', 'fadeout', 2)
+(track:'museum', 'fadeout', 2)}
 
 
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
@@ -63,10 +62,7 @@ museum: ./music/museum.mp3
 
 
 :: notice {"position":"675,25","size":"100,100"}
-{(track: "menu.mp3", 'fadeout', 2)
-(track: "musicshop.mp3", 'fadeout', 2)
-(track: "flowershop.mp3", 'fadeout', 2)
-(track: "museum.mp3", 'fadeout', 2)}
+
 
 
 
