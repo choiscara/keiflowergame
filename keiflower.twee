@@ -44,10 +44,10 @@ debug: true
 
 
 :: hal.tracks {"position":"325,125","size":"100,100"}
-menu: ./music/menu.mp3
-musicshop: ./music/musicshop.mp3
-flower: ./music/flowershop.mp3
-museum: ./music/museum.mp3
+menu: ./keiflowergame/audio/menu.mp3
+musicshop: ./keiflowergame/audio/musicshop.mp3
+flower: ./keiflowergame/audio/flowershop.mp3
+museum: ./keiflowergame/audio/museum.mp3
 
 
 :: let's go for a walk! {"position":"800,525","size":"100,100"}
@@ -55,10 +55,7 @@ museum: ./music/museum.mp3
 
 
 :: menu {"position":"675,150","size":"100,100"}
-{(track:'menu', 'fadeout', 2)
-(track:'musicshop', 'fadeout', 2)
-(track:'flower', 'fadeout', 2)
-(track:'museum', 'fadeout', 2)}
+
 
 
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
