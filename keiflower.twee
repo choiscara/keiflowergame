@@ -16,8 +16,7 @@ keiflower
 
 
 :: click to start your journey [keikei] {"position":"675,275","size":"100,100"}
-{(track: 'keikei', 'fadein', 2)
-(track: 'keikei', 'loop', true)}
+
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
 i'll be your guide! i am the little voice in nova's head >:)
 
@@ -53,10 +52,8 @@ museum: ./music/museum.mp3
 
 
 :: menu {"position":"675,150","size":"100,100"}
-{(track: 'keikei', 'fadeout', 2)
-(track: 'musicshop', 'fadeout', 2)
-(track: 'flower', 'fadeout', 2)
-(track: 'museum', 'fadeout', 2)}
+{(track: 'keikei', 'fadein', 1)
+(track: 'keikei', 'loop', true)}
 
 
 
@@ -66,6 +63,13 @@ museum: ./music/museum.mp3
 
 
 :: notice {"position":"675,25","size":"100,100"}
+{(track: 'keikei', 'fadeout', 2)
+(track: 'musicshop', 'fadeout', 2)
+(track: 'flower', 'fadeout', 2)
+(track: 'museum', 'fadeout', 2)}
+
+
+
 (align:"=><=")+(box:"=XXXXXXXX=")[(t8n: "fade")+(transition-time: 3s)[(text-size:1.5)[A game made by Nova]
 
 
