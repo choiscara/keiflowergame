@@ -7,7 +7,7 @@ keiflower
   "ifid": "349DB594-5079-4788-B434-315FB587EF94",
   "format": "Harlowe",
   "format-version": "3.3.8",
-  "start": "menu",
+  "start": "notice",
   "tag-colors": {
     "keikei": "purple"
   },
@@ -40,10 +40,10 @@ debug: true
 
 
 :: hal.tracks {"position":"325,125","size":"100,100"}
-keikei: ./audio/menu.mp3
-music: ./audio/musicshop.mp3
-flower: ./audio/flowershop.mp3
-museum: ./audio/museum.mp3
+keikei: ./music/menu.mp3
+music: ./music/musicshop.mp3
+flower: ./music/flowershop.mp3
+museum: ./music/museum.mp3
 
 
 :: let's go for a walk! {"position":"800,525","size":"100,100"}
@@ -51,14 +51,22 @@ museum: ./audio/museum.mp3
 
 
 :: menu {"position":"675,150","size":"100,100"}
-{(track: 'museum', 'fadein', 2)
-(track: 'museum', 'loop', true)}
+{(track: 'keikei', 'fadein', 2)
+(track: 'keikei', 'loop', true)}
 
 
 
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
 
 [[click to start your journey]]]
+
+
+:: notice {"position":"675,25","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXX=")[(t8n: "fade")+(transition-time: 3s)[(text-size:1.5)[A game made by Nova]
+
+
+Are you ready?]
+{(after:3s)[(go-to:"menu")]}]
 
 
 :: start your journey! {"position":"675,400","size":"100,100"}
