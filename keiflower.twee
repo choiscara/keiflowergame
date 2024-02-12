@@ -38,6 +38,11 @@ to start, here is some info about your journey ➪
 [[start your journey!]]]]]
 
 
+:: hal.config {"position":"450,125","size":"100,100"}
+volumeDisplay: false
+debug: true
+
+
 :: hal.tracks {"position":"325,125","size":"100,100"}
 menu: ./music/menu.mp3
 musicshop: ./music/musicshop.mp3
