@@ -16,7 +16,7 @@ keiflower
 
 
 :: click to start your journey [keikei] {"position":"675,275","size":"100,100"}
-{(track: 'keikei', 'fadein', 1)
+{(track: 'keikei', 'fadein', 10)
 (track: 'keikei', 'loop', true)}
 
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
