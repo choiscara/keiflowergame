@@ -52,8 +52,8 @@ museum: ./music/museum.mp3
 
 
 :: menu {"position":"675,150","size":"100,100"}
-{(track: 'keikei', 'fadein', 1)
-(track: 'keikei', 'loop', true)}
+{(track: "menu.mp3", 'fadein', 1)
+(track: "menu.mp3", 'loop', true)}
 
 
 
@@ -63,10 +63,10 @@ museum: ./music/museum.mp3
 
 
 :: notice {"position":"675,25","size":"100,100"}
-{(track: 'keikei', 'fadeout', 2)
-(track: 'musicshop', 'fadeout', 2)
-(track: 'flower', 'fadeout', 2)
-(track: 'museum', 'fadeout', 2)}
+{(track: "menu.mp3", 'fadeout', 2)
+(track: "musicshop.mp3", 'fadeout', 2)
+(track: "flowershop.mp3", 'fadeout', 2)
+(track: "museum.mp3", 'fadeout', 2)}
 
 
 
