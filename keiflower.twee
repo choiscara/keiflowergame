@@ -15,7 +15,7 @@ keiflower
 }
 
 
-:: click to start your journey [keikei] {"position":"675,275","size":"100,100"}
+:: click to start your journey [keikei] {"position":"700,275","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
 i'll be your guide! i am the little voice in nova's head >:)
 
@@ -25,7 +25,7 @@ to start, here is some info about your journey ➪
 2. at each stop, you'll get 3 different choices to decide what to do next!
 3. once you reach all 3 destinations, you've completed the game!
 
-will there be a special surprise? idk...
+(link:"is there be a special surprise? idk...")[(goto-url:'https://keiflower.carrd.co/#letter')]
 
 ➪
 
@@ -64,6 +64,40 @@ you look through the window of the closest store, admiring the various products.
 [[continue walking]] ]
 
 
+:: follow the moon {"position":"575,825","size":"100,100"}
+you see a mural of the moon painted on the sidewalk in front of you, and move to get a closer look. something about it draws you in deeper, but you lose the scent more and more each step you take.
+
+(click:"lose the scent")[this wasn't the right path, at least not now...
+
+(text-color:#8266ba)[~~follow the moon~~]
+
+[[follow the stars]] 
+
+[[follow the sun]]]
+
+
+:: follow the stars {"position":"700,825","size":"100,100"}
+you encounter a sign on the street which is covered with drawings of constellations, and you //know// you're in the right spot. this is where you're supposed to go. the stars.
+
+(click:"the stars")[you know these stars, of course you know them. why wouldn't you?]
+
+(click:"you know them")[you're lead to a small flower shop, where the door is propped open. you feel as though it is calling your name, pulling you in, ready to welcome you home.
+
+(link:"home")[(goto-url:'https://keiflower.carrd.co/#flowershop')]]
+
+
+:: follow the sun {"position":"825,825","size":"100,100"}
+you look in the sky towards the sun, and move to chase it. it makes sense to follow the bright light, almost beacon-like. but as you move closer, you feel the grip of the familiar scent loosen.
+
+(click:"familiar scent")[this wasn't the right path, at least not now...
+
+[[follow the moon]]
+
+[[follow the stars]] 
+
+(text-color:#8266ba)[~~follow the sun~~]]
+
+
 :: go inside {"position":"250,875","size":"100,100"}
 as you enter the shop, you feel the weight of a million memories and emotions weigh down on you. were these all yours? did they come from you?
 
@@ -74,7 +108,59 @@ you look up and see the outline of a figure in front of you. you can't see their
 (click:"anywhere")[ (link:"i know you")[(goto-url:'https://keiflower.carrd.co/#musicshop')]]
 
 
-:: menu {"position":"675,150","size":"100,100"}
+:: go towards the pond {"position":"575,700","size":"100,100"}
+once you reach the pond, you see a pair of koi fish. it makes you think of something-or rather some//one//-but you don't see the flowers here.
+
+(click:"here")[ (text-color:#8266ba)[~~go towards the pond~~]
+
+[[leave the park]] 
+
+[[stay in the park]] ]
+
+
+:: leave {"position":"1250,600","size":"100,100"}
+everything feels too overwhelming. you turn to leave, but something holds you back. you can't seem to truly //leave//.
+
+(click:"leave.")[ [[look at the first photo]]
+
+(text-color:#8266ba)[~~leave~~]
+
+[[look at the last photo]] ]
+
+
+:: leave the park {"position":"700,700","size":"100,100"}
+once you leave the park, the calm scent overpowers your senses. you still can't quite place why it's so familiar, but something in the back of your mind pushes you foward. you feel a sense of urgency, as though you //need// to know where it's coming from.
+
+(click:"urgency")[you need to know why it's so familiar.
+
+[[follow the sun]]
+
+[[follow the moon]]
+
+[[follow the stars]]]
+
+
+:: look at the first photo {"position":"1100,600","size":"100,100"}
+the first photo is of two men you've never seen before. you aren't quite sure what their names are. you don't know anything about them, but you want to //learn//.
+
+(click:"learn")[you feel as though you should know, as though it is important.
+
+maybe these photos are the key to the thing that's missing.
+
+(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]]
+
+
+:: look at the last photo {"position":"1400,600","size":"100,100"}
+the last photo is of a man and a woman you've never seen before. you aren't quite sure what their names are. you don't know anything about them, but you want to //learn//.
+
+(click:"learn")[you feel as though you should know, as though it is important.
+
+maybe these photos are the key to the thing that's missing.
+
+(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]]
+
+
+:: menu {"position":"700,150","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
 
 [[click to start your journey]]]
@@ -94,7 +180,7 @@ well staring at the windows isn't gonna do much... you sure you don't wanna know
 [[go inside]]
 
 
-:: start your journey! {"position":"675,400","size":"100,100"}
+:: start your journey! {"position":"700,400","size":"100,100"}
 it's time for your first choice! how will you start your journey?
 
 [[what's that sound?]]
@@ -102,6 +188,18 @@ it's time for your first choice! how will you start your journey?
 [[what's that smell?]]
 
 [[the sunset looks so pretty...]]
+
+
+:: stay in the park {"position":"825,700","size":"100,100"}
+you wander around the park for several more minutes, but you start to lose the scent. the flowers scattered across the grass don't seem to be the ones you're looking for.
+
+(click:"grass")[they must be coming from somewhere else, but where?
+
+[[leave the park]] 
+
+[[go towards the pond]] 
+
+(text-color:#8266ba)[~~stay in the park~~]]
 
 
 :: take a left {"position":"0,725","size":"100,100"}
@@ -127,7 +225,17 @@ you turn right, and you feel the music fill your ears. it feels like a warm embr
 
 
 :: the sunset looks so pretty... {"position":"1200,475","size":"100,100"}
+you find yourself walking under the sun, basking in the gentle warmth. you feel safe, but you know something is missing. you can't explain //what//, but you could almost feel a thread pulling your right pinkie.
 
+(click:"thread")[it pulls you forward, towards a section of the park you'd never seen before. there were pictures of worlds you'd never been to, people you'd never met; but you recognised them all the same.]
+
+(click:"recognized")[you couldn't help your curiosity, you wanted to look deeper, learn more.
+
+[[look at the first photo]]
+
+[[leave]]
+
+[[look at the last photo]]
 
 
 :: turn away and leave {"position":"250,1000","size":"100,100"}
@@ -138,10 +246,16 @@ please...
 [[go inside]]
 
 
-:: what's that smell? {"position":"550,575","size":"100,100"}
-hey >:( don't get distracted!! this is important okei, i promise!
+:: what's that smell? {"position":"700,550","size":"100,100"}
+you follow the soft scent, unable to place exactly what it was. you could tell it wasn't food, so perhaps it was a flower? or a //bunch// of flowers?
 
-press the undo button to go back to your choices!
+(click:"flowers")[it was a gentle smell that pulled you forward, further and further through the park. where would you end up?
+
+[[stay in the park]]
+
+[[leave the park]]
+
+[[go towards the pond]]]
 
 
 :: what's that sound? {"position":"225,475","size":"100,100"}
