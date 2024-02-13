@@ -83,7 +83,9 @@ you encounter a sign on the street which is covered with drawings of constellati
 
 (click:"you know them")[you're lead to a small flower shop, where the door is propped open. you feel as though it is calling your name, pulling you in, ready to welcome you home.
 
-(link:"home")[(goto-url:'https://keiflower.carrd.co/#flowershop')]]
+(link:"home")[(goto-url:'https://keiflower.carrd.co/#flowershop')]
+
+to return to the beginning: [[start your journey!]]]
 
 
 :: follow the sun {"position":"825,825","size":"100,100"}
@@ -105,7 +107,9 @@ as you enter the shop, you feel the weight of a million memories and emotions we
 
 you look up and see the outline of a figure in front of you. you can't see their face, but you know them all the same. of course you know them. you'd know them anywhere.]
 
-(click:"anywhere")[ (link:"i know you")[(goto-url:'https://keiflower.carrd.co/#musicshop')]]
+(click:"anywhere")[ (link:"i know you")[(goto-url:'https://keiflower.carrd.co/#musicshop')]
+
+to return to the beginning: [[start your journey!]] ]
 
 
 :: go towards the pond {"position":"575,700","size":"100,100"}
@@ -147,7 +151,9 @@ the first photo is of two men you've never seen before. you aren't quite sure wh
 
 maybe these photos are the key to the thing that's missing.
 
-(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]]
+(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]
+
+to return to the beginning: [[start your journey!]]]
 
 
 :: look at the last photo {"position":"1400,600","size":"100,100"}
@@ -157,7 +163,9 @@ the last photo is of a man and a woman you've never seen before. you aren't quit
 
 maybe these photos are the key to the thing that's missing.
 
-(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]]
+(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]
+
+to return to the beginning: [[start your journey!]]]
 
 
 :: menu {"position":"700,150","size":"100,100"}
