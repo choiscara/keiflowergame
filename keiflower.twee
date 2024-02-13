@@ -21,11 +21,11 @@ i'll be your guide! i am the little voice in nova's head >:)
 
 to start, here is some info about your journey ➪
 
-(click:"➪")[1. there are 3 total destinations, plus the final resting place
-2. once you reach all 3 destinations, you'll reach the final resting place!
-3. at each destination, you'll get 3 different choices
-4. the different choices will bring you to the same 3 destinations, just in a different order!
-5. however, there will be some tricks >:)
+(click:"➪")[1. there are 3 total routes, each of which lead to a special destination
+2. at each stop, you'll get 3 different choices to decide what to do next!
+3. once you reach all 3 destinations, you've completed the game!
+
+will there be a special surprise? idk...
 
 ➪
 
@@ -34,8 +34,44 @@ to start, here is some info about your journey ➪
 [[start your journey!]]]]]
 
 
-:: let's go for a walk! {"position":"800,525","size":"100,100"}
+:: continue straight {"position":"50,825","size":"100,100"}
+you continue straight, but you hear the music get quieter. maybe you need to go back...
 
+(click:"go back")[ [[take a left]]
+
+(text-color:#8266ba)[~~continue straight~~]
+
+[[take a right]] ]
+
+
+:: continue walking {"position":"50,625","size":"100,100"}
+you couldn't let the curiosity rest. it spread thoughout your body, lying just beneath your skin. you could taste the answer on the tip of your tongue, but it wasn't enough.
+
+(click:"enough")[you needed to find the source, maybe it would give you the answers you needed. maybe you could hear the lyrics more clearly; maybe they could tell you everything you need to know.]
+
+(click:"tell you")[ [[take a left]]
+
+[[take a right]]
+
+[[continue straight]]]
+
+
+:: do a bit of window shopping {"position":"275,600","size":"100,100"}
+you look through the window of the closest store, admiring the various products. You weren't even sure //what// they were, but you couldn't focus enough with the loud music.
+
+(click:"music")[maybe you should start walking towards it.
+
+[[continue walking]] ]
+
+
+:: go inside {"position":"250,875","size":"100,100"}
+as you enter the shop, you feel the weight of a million memories and emotions weigh down on you. were these all yours? did they come from you?
+
+(click:"from you")[no...they're not from you...
+
+you look up and see the outline of a figure in front of you. you can't see their face, but you know them all the same. of course you know them. you'd know them anywhere.]
+
+(click:"anywhere")[ (link:"i know you")[(goto-url:'https://keiflower.carrd.co/#musicshop')]]
 
 
 :: menu {"position":"675,150","size":"100,100"}
@@ -44,26 +80,80 @@ to start, here is some info about your journey ➪
 [[click to start your journey]]]
 
 
+:: sit on a bench {"position":"175,600","size":"100,100"}
+you sit down on a nearby bridge, and stare at the tree next to it. The music is still playing, but you still can't tell where it's coming from.
+
+(click:"from")[maybe you should start walking towards it.
+
+[[continue walking]] ]
+
+
+:: stare at the windows {"position":"125,1000","size":"100,100"}
+well staring at the windows isn't gonna do much... you sure you don't wanna know?
+
+[[go inside]]
+
+
 :: start your journey! {"position":"675,400","size":"100,100"}
 it's time for your first choice! how will you start your journey?
 
-[[you heard something!]]
+[[what's that sound?]]
 
 [[what's that smell?]]
 
-[[let's go for a walk!]]
+[[the sunset looks so pretty...]]
 
 
-:: what's that smell? {"position":"675,525","size":"100,100"}
+:: take a left {"position":"0,725","size":"100,100"}
+you take a turn, but you hear the music get quieter. maybe you need to turn back...
+
+(click:"turn back")[ (text-color:#8266ba)[~~take a left~~]
+
+[[continue straight]] 
+
+[[take a right]] ]
+
+
+:: take a right {"position":"125,725","size":"100,100"}
+you turn right, and you feel the music fill your ears. it feels like a warm embrace, pulling you in closer and closer.
+
+(click:"closer and closer")[you stop in front of a music shop. you've never been here, and yet it looks so familiar. what do you do?]
+
+(click:"what")[ [[go inside]]
+
+[[stare at the windows]]
+
+[[turn away and leave]]]
+
+
+:: the sunset looks so pretty... {"position":"1200,475","size":"100,100"}
+
+
+
+:: turn away and leave {"position":"250,1000","size":"100,100"}
+come on now... you really don't wanna know?
+
+please...
+
+[[go inside]]
+
+
+:: what's that smell? {"position":"550,575","size":"100,100"}
 hey >:( don't get distracted!! this is important okei, i promise!
 
 press the undo button to go back to your choices!
 
 
-:: you heard something! {"position":"550,525","size":"100,100"}
+:: what's that sound? {"position":"225,475","size":"100,100"}
 you followed the sound of a familiar song down the street. you're not entirely sure how you know the song, but it fills you with warmth regardless. it reminds you of home, of safety. what could it be? where could it be coming from?
 
-(click:"where")[as you follow the music, you pass by other places you're drawn to. why does this street feel so familiar when you've never been here?
+(click:"where")[as you follow the music, you pass by other places you're drawn to. why does this street feel so familiar when you've never been here before?]
+
+(click:"never")[ [[continue walking]]
+
+[[sit on a bench]]
+
+[[do a bit of window shopping]]]
 
 
 :: StoryStylesheet [stylesheet]
