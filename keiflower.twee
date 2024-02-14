@@ -15,6 +15,10 @@ keiflower
 }
 
 
+:: bbangiz {"position":"825,175","size":"100,100"}
+<img src="image\bbangiz.png", width="780px" height="500px">
+
+
 :: click to start your journey [keikei] {"position":"700,275","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
 i'll be your guide! i am the little voice in nova's head >:)
@@ -171,7 +175,7 @@ to return to the beginning: [[start your journey!]]]
 :: menu {"position":"700,150","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
 
-[[click to start your journey]]]
+[[bbangiz]]]
 
 
 :: sit on a bench {"position":"175,600","size":"100,100"}
