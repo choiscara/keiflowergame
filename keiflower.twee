@@ -57,7 +57,7 @@ you couldn't let the curiosity rest. it spread thoughout your body, lying just b
 
 
 :: do a bit of window shopping {"position":"275,600","size":"100,100"}
-you look through the window of the closest store, admiring the various products. You weren't even sure //what// they were, but you couldn't focus enough with the loud music.
+you look through the window of the closest store, admiring the various products. you weren't even sure //what// they were, but you couldn't focus enough with the loud music.
 
 (click:"music")[maybe you should start walking towards it.
 
@@ -175,7 +175,7 @@ to return to the beginning: [[start your journey!]]]
 
 
 :: sit on a bench {"position":"175,600","size":"100,100"}
-you sit down on a nearby bridge, and stare at the tree next to it. The music is still playing, but you still can't tell where it's coming from.
+you sit down on a nearby bench, and stare at the tree next to it. the music is still playing, but you still can't tell where it's coming from.
 
 (click:"from")[maybe you should start walking towards it.
 
@@ -237,7 +237,7 @@ you find yourself walking under the sun, basking in the gentle warmth. you feel 
 
 (click:"thread")[it pulls you forward, towards a section of the park you'd never seen before. there were paintings of worlds you'd never been to, people you'd never met; but you recognised them all the same.]
 
-(click:"recognized")[you couldn't help your curiosity, you wanted to look deeper, learn more.
+(click:"recognised")[you couldn't help your curiosity, you wanted to look deeper, learn more.
 
 [[look at the first painting]]
 
