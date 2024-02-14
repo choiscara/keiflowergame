@@ -15,10 +15,6 @@ keiflower
 }
 
 
-:: bbangiz {"position":"825,175","size":"100,100"}
-<img src="image\bbangiz.png", width="780px" height="500px">
-
-
 :: click to start your journey [keikei] {"position":"700,275","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[welcome to the valentine's kova experience!
 i'll be your guide! i am the little voice in nova's head >:)
@@ -129,11 +125,11 @@ once you reach the pond, you see a pair of koi fish. it makes you think of somet
 :: leave {"position":"1250,600","size":"100,100"}
 everything feels too overwhelming. you turn to leave, but something holds you back. you can't seem to truly //leave//.
 
-(click:"leave.")[ [[look at the first photo]]
+(click:"leave.")[ [[look at the first painting]]
 
 (text-color:#8266ba)[~~leave~~]
 
-[[look at the last photo]] ]
+[[look at the last painting]] ]
 
 
 :: leave the park {"position":"700,700","size":"100,100"}
@@ -148,7 +144,7 @@ once you leave the park, the calm scent overpowers your senses. you still can't 
 [[follow the stars]]]
 
 
-:: look at the first photo {"position":"1100,600","size":"100,100"}
+:: look at the first painting {"position":"1100,600","size":"100,100"}
 the first photo is of two men you've never seen before. you aren't quite sure what their names are. you don't know anything about them, but you want to //learn//.
 
 (click:"learn")[you feel as though you should know, as though it is important.
@@ -160,14 +156,14 @@ maybe these photos are the key to the thing that's missing.
 to return to the beginning: [[start your journey!]]]
 
 
-:: look at the last photo {"position":"1400,600","size":"100,100"}
-the last photo is of a man and a woman you've never seen before. you aren't quite sure what their names are. you don't know anything about them, but you want to //learn//.
+:: look at the last painting {"position":"1400,600","size":"100,100"}
+the last painting is of a man and a woman you've never seen before. you aren't quite sure what their names are. you don't know anything about them, but you want to //learn//.
 
 (click:"learn")[you feel as though you should know, as though it is important.
 
 maybe these photos are the key to the thing that's missing.
 
-(link:"the key")[(goto-url:'https://keiflower.carrd.co/#museum')]
+(link:"the key")[(goto-url:'https://kovamuseum.carrd.co')]
 
 to return to the beginning: [[start your journey!]]]
 
@@ -175,7 +171,7 @@ to return to the beginning: [[start your journey!]]]
 :: menu {"position":"700,150","size":"100,100"}
 (align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[happy valentines my kei ( ˘ ³˘)♥︎
 
-[[bbangiz]]]
+[[click to start your journey]]]
 
 
 :: sit on a bench {"position":"175,600","size":"100,100"}
@@ -239,15 +235,15 @@ you turn right, and you feel the music fill your ears. it feels like a warm embr
 :: the sunset looks so pretty... {"position":"1200,475","size":"100,100"}
 you find yourself walking under the sun, basking in the gentle warmth. you feel safe, but you know something is missing. you can't explain //what//, but you could almost feel a thread pulling your right pinkie.
 
-(click:"thread")[it pulls you forward, towards a section of the park you'd never seen before. there were pictures of worlds you'd never been to, people you'd never met; but you recognised them all the same.]
+(click:"thread")[it pulls you forward, towards a section of the park you'd never seen before. there were paintings of worlds you'd never been to, people you'd never met; but you recognised them all the same.]
 
 (click:"recognized")[you couldn't help your curiosity, you wanted to look deeper, learn more.
 
-[[look at the first photo]]
+[[look at the first painting]]
 
 [[leave]]
 
-[[look at the last photo]]]
+[[look at the last painting]]]
 
 
 :: turn away and leave {"position":"250,1000","size":"100,100"}
